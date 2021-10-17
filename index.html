@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>Covid-19</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="Image/shurokkha.png" alt="logoone" height="60" width="160">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">হোম</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">নিবন্ধন</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              টিকা সনদ
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">টিকা কার্ড</a></li>
+              <li><a class="dropdown-item" href="#">টিকা সনদ যাচাই</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="খুঁজুন" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">খুঁজুন</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <button type="button" class="btn btn-info" onclick="document.getElementById('demo').innerHTML = Date()">
+      Date and Time.
+    </button>
+    <p id="demo" style="text-align: center;"></p>
+  </div>
+
+
+  <div class="container" id="top_info">
+    <h1>ভাইরাসটা কী?</h1>
+    <p>করোনাভাইরাস এমন একটি সংক্রামক ভাইরাস - যা এর আগে কখনো মানুষের মধ্যে ছড়ায়নি।
+
+      এই ভাইরাসে বিশ্বব্যাপী প্রাণহানির সংখ্যা প্রায় সাড়ে ১৮ লাখ। বিশ্বব্যাপী শনাক্তের সংখ্যা সাড়ে ৮ কোটির বেশি।
+      (তথ্য আপডেট করা হয়েছে ৪ঠা জানুয়ারি ২০২১)
+
+      ভাইরাসটির আরেক নাম ২০১৯ - এনসিওভি বা নভেল করোনাভাইরাস। এটি এক ধরণের করোনাভাইরাস। করোনাভাইরাসের অনেক রকম প্রজাতি
+      আছে, কিন্তু এর মধ্যে মাত্র ছয়টি প্রজাতি মানুষের দেহে সংক্রমিত হতে পারে। তবে নতুন ধরণের ভাইরাসের কারণে সেই সংখ্যা
+      এখন থেকে হবে সাতটি।
+
+      ২০০২ সাল থেকে চীনে মহামারি আকারে ছড়িয়ে পড়া সার্স (পুরো নাম সিভিয়ার এ্যাকিউট রেসপিরেটরি সিনড্রোম) নামে যে
+      ভাইরাসের সংক্রমণে পৃথিবীতে ৭৭৪জনের মৃত্যু হয়েছিল আর ৮০৯৮ জন সংক্রমিত হয়েছিল। সেটিও ছিল এক ধরণের করোনাভাইরাস।
+
+      নতুন এই রোগটিকে প্রথমদিকে নানা নামে ডাকা হচ্ছিল, যেমন: 'চায়না ভাইরাস', 'করোনাভাইরাস', '২০১৯ এনকভ', 'নতুন ভাইরাস',
+      'রহস্য ভাইরাস' ইত্যাদি।
+
+      ২০২০ সালের ফেব্রুয়ারি মাসের দ্বিতীয় সপ্তাহে বিশ্ব স্বাস্থ্য সংস্থা রোগটির আনুষ্ঠানিক নাম দেয় কোভিড-১৯ যা
+      'করোনাভাইরাস ডিজিজ ২০১৯'-এর সংক্ষিপ্ত রূপ।</p>
+    <h1>রোগের লক্ষণ কী:</h1>
+    <ul>
+      <li>রেসপিরেটরি লক্ষণ ছাড়াও জ্বর, কাশি, শ্বাস প্রশ্বাসের সমস্যাই মূলত প্রধান লক্ষণ।</li>
+      <li>এটি ফুসফুসে আক্রমণ করে।</li>
+      <li>সাধারণত শুষ্ক কাশি ও জ্বরের মাধ্যমেই শুরু হয় উপসর্গ, পরে শ্বাস প্রশ্বাসে সমস্যা দেখা দেয়।</li>
+      <li>সাধারণত রোগের উপসর্গগুলো প্রকাশ পেতে গড়ে পাঁচ দিন সময় নেয়।</li>
+    </ul>
+    <p style="font-weight: bolder;">বিশ্ব স্বাস্থ্য সংস্থা বলছে, ভাইরাসটির ইনকিউবেশন পিরিয়ড ১৪দিন পর্যন্ত স্থায়ী থাকে।
+      তবে কিছু কিছু গবেষকের মতে এর স্থায়িত্ব ২৪ দিন পর্যন্ত থাকতে পারে।
+
+      মানুষের মধ্যে যখন ভাইরাসের উপসর্গ দেখা দেবে তখন বেশি মানুষকে সংক্রমণের সম্ভাবনা থাকবে তাদের। তবে এমন ধারণাও করা
+      হচ্ছে যে নিজেরা অসুস্থ না থাকার সময়ও সুস্থ মানুষের দেহে ভাইরাস সংক্রমিত করতে পারে মানুষ।
+
+      শুরুর দিকের উপসর্গ সাধারণ সর্দিজ্বর এবং ফ্লু'য়ের সাথে সাদৃশ্যপূর্ণ হওয়ায় রোগ নির্ণয়ের ক্ষেত্রে দ্বিধাগ্রস্থ
+      হওয়া স্বাভাবিক।</p>
+    <img src="Image/guidance_symptoms.png" alt="guidance_symptoms">
+  </div>
+  <div class="container" id="home">
+    <div class="col-sm-6">
+      <h1>কোভিড-১৯ ভ্যাকসিন নিবন্ধন ফর্ম</h1>
+      <p>নিচের ফর্মে আপনার জাতীয় পরিচয়পত্র ও মোবাইল নম্বর যাচাইপূর্বক নিবন্ধন সম্পন্ন করুন। পরবর্তীতে মোবাইল ফোনে
+        এসএমএস বার্তার মাধ্যমে ভ্যাকসিন প্রদানের স্থান ও তারিখ পর্যায়ক্রমে নির্দিষ্ট সময়ে জানানো হবে।</p>
+      <form>
+        <label for="porichoy">পরিচয় যাচাই</label>
+        <div class="form-group">
+          <label for="শ্রেণী">শ্রেণী (ধরণ) নির্বাচন করুন:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="নাগরিক নিবন্ধন">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">জাতীয় পরিচয়পত্র নম্বর:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="উদাহরণ-45575746741">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">জন্ম তারিখ (জাতীয় পরিচয়পত্র অনুযায়ী):</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="দিন-মাস-বছর">
+
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container">
+    <h1>কোভিড-১৯ করোনা ভ্যাকসিন গ্রহণের প্রক্রিয়া</h1>
+    <div class="row">
+      <div class="col-sm-4"><img src="Image/download1.png" alt="imgone"> <br> প্রথমে এই পোর্টালের মাধ্যমে জাতীয়
+        পরিচয়পত্র ও সঠিক মোবাইল নম্বর যাচাইপূর্বক অনলাইনে নিবন্ধন সম্পন্ন করবেন।</div>
+      <div class="col-sm-4"><img src="Image/download2.png" alt="imgtwo"> <br> অনলাইনে নিবন্ধন পরবর্তী তথ্য যাচাইপূর্বক
+        পর্যায়ক্রমে টিকা প্রদানের তারিখ ও কেন্দ্রের নাম উল্লেখপূর্বক মুঠোফোনে খুদেবার্তা পাবেন।</div>
+      <div class="col-sm-4"><img src="Image/download3.png" alt="imgthree"> <br> মুঠোফোনে খুদেবার্তা প্রাপ্তি সাপেক্ষে
+        টিকাকার্ড জাতীয় পরিচয়পত্র ও সম্মতিপত্রসহ নির্দিষ্ট তারিখে টিকাদান কেন্দ্রে স্ব-শরীরে উপস্থিত হয়ে কোভিড-১৯ টিকা
+        গ্রহণ করবেন।</div>
+    </div>
+  </div>
+  <div class="container" id="muzib">
+    <h3 style="color: red;">| মুজিব ১০০</h3>
+    <br>
+    <div class="row">
+      <div class="col-sm-4" id="mz"><img src="Image/mujib100.png" alt="mujib100" style="height: 80px; width: 200px;">
+        <p>মুজিব ১০০ পোর্টাল</p>
+      </div>
+      <div class="col-sm-4" id="mz"><img src="Image/appstore.png" alt="appstore">
+        <p>মুজিব ১০০ অ্যান্ড্রয়েড অ্যাপ</p>
+      </div>
+      <div class="col-sm-4" id="mz"><img src="Image/appstore.png" alt="appstore">
+        <p>মুজিব ১০০ আইওএস অ্যাপ</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" id="footer">
+      <div class="col-sm-3"><img src="Image/footershurokkha.png" alt="logp"
+          style="height:150px; width: 250px; padding-top: 25px;"></div>
+      <div class="col-sm-3" style="padding-top:30px;">
+        <p>জিজ্ঞাসা <br>সহায়িকা <br>প্রাইভেসি পলিসি <br>টার্মস অফ সার্ভিসেস <br>অন্যান্য সহযোগী প্রতিষ্ঠানসমূহ</p>
+      </div>
+      <div class="col-sm-3"><img src="Image/ict.52410752.png" alt="ict" style="width: 190px; height: 60px; margin-top: 20px;"><br><br>
+        <p>কারিগরি সহায়তায় - তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরকারিগরি সহায়তায় - তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর</p>
+        <br>
+      </div>
+      <div class="col-sm-3">
+        <p style="margin-top: 20px;">সহযোগী সংস্থাসমূহ -</p><img src="Image/org.ed08c793.png" alt="orgimg" style="width: 190px; height: 60px;">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color:whitesmoke;">
+    <p style="text-align: center;">Presented by Group-B</p>
+    <p style="text-align: center; font-weight: bolder;">Roll No: 143081, 143071, 141310
+    </p>
+  </div>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
